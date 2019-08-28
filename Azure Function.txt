@@ -1,0 +1,49 @@
+Azure function = Event+Code
+
+Use: 
+Time--Run a bnackground task on regular schedule
+data--process messages in a queue items in blob storage
+Web--respond to a HTTP request or webhook
+
+Azure VM,
+Azure cloud service,
+Azure web Apps and web jobs all these can do the same work as Azure function
+then Why Function??
+
+web job act as a background process in same server of web app
+Basis Of Azure Functio is Web job
+Lighest edition of Azure app service family
+
+Simplified programming model
+  just the code to respond to the event
+  No boilerplate
+  only code that focus on business requirements
+
+Azure VM,
+Azure cloud service,
+Azure web Apps and web jobs all needs atleast one  servervcontineously running
+while
+for Azure function we have option to pay as you go only(means if there is no message ever came in queue then  we dont have to pay)
+
+Third party application meets many of the common need of application but 
+still we ned to do something as a trigger of event fire (logging, sending email or full text searching or taking payment) 
+in that case we can use Azure function and microdoft will worry about the server and their scaling
+as--Function as a service(FAAS)
+
+Monoliothic architecture--> same server doing everything then it becomes hard to change the coding environment
+using Azure function we are decomposing Monolithic Architectur. microservices takes to nanoservices using Azure functions
+
+group of Zaure functions is Function App.
+
+
+
+Creating Azure Function:
+
+
+ 
+
+
+
+
+
+
