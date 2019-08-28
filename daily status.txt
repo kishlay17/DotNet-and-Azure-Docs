@@ -1,0 +1,28 @@
+* One more diagram should be there showing interaction between CogniCor and ServiceWorks
+
+* For serviceWorks integration we will be using VA provided by CogniCor directly 
+  (CogniCor UI will be chatbot UI for serviceworks) and this should be mentioned in SAS.
+
+* API provided by CogniCor should also be there which can be used in Mobile 
+  application with additional customization.
+
+
+
+SQL functions and Operators
+Union and Union All
+SQL basics, date functions and data types. file stream
+subqueries and join
+SQL merge
+Execute keyword - WITH RESULT SETS
+PIVOT and UNPIVOT
+Sparse and Heirarchy
+XML
+Common TAble Expression
+Triggers
+Stored Procedure
+Functions
+Analytic functions and pagination
+TRY CONVERT and Error handling, Indexes
+Performance tuning and transactions
+New T-SQL functions-->Format(), CHOOSE(), EOMONTH, DATETIMEFROMPARTS
+Sequence Objects
